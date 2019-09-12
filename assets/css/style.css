@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+ html{
+
+	--anthracitPurple : #394061 ;
+	--anthracit : #565466 ;
+	--beige : #F5F5DC;
+	--nacre :#FFF5EE;
+	--smoke :#F5F5F5;
+	--ghost :#F8F8FF;
+
+}
+.h1{
+	 	font-family: 'Quicksand', sans-serif;
+
+}
+
+.title{
+	font-size: 20px;
+
+}
+
+body.highlighter-context{
+	margin-top: 100px;
+  background:  	var(--smoke);
+	
+}
+.content{
+	margin-top: 200px;
+}
+
+textarea{  
+  display: block;
+  box-sizing: padding-box;
+  overflow: hidden;
+  overflow-y: hidden;
+  padding: 5px;
+  width: 1000px;
+
+  font-size: 14px;
+  margin: 50px auto;
+  border-radius: 6px;
+	border: 1px solid lightgrey;
+}
+.resume{
+	position: fixed;
+	top: 120px;
+	left: 20px;
+	width: 218px;
+}
+.navResume{
+	position: fixed;
+	top: 370px;
+	left: 20px;
+	width: 218px;
+}
+.nameUserPost{
+	font-size: 20px;
+}
+ .leftDivFilled{
+ 	font-family: 'Quicksand', sans-serif;
+ 	position: fixed;
+ 	top: 430PX;
+ 	left: 20px;
+ 	width: 218px;
+
+ }
+.content{
+	margin-top: 50px;
+}
+.msgBar{
+	background-color: var(--anthracit);
+	height: 50px;
+
+}
+.contact{
+  padding: 0px;
+  position: fixed;
+  width: 450px;
+
+  bottom: 0px;
+  right: 10px;
+
+	}
+.bg{
+	background-color: var(--anthracitPurple);
+}
+.white{
+	background-color: white;
+	margin-top: -2px;
+
+}
+.PP{
+	height: 150px;
+	width: 150px;
+	border-radius: 100px;
+	position: relative;
+	margin-top:-50px;
+	border-style : solid 1px red;
+}
+.profilCard{
+	margin-top: 10px;
+	background-color: white;
+	padding: 10px;
+	text-align: center;
+}
+.addContent{
+	padding : 10px;
+	margin-top: 10px;
+	text-align: center;
+	background-color: white;
+	cursor: pointer;
+	color: black;
+}
+.addContent:hover{
+	color: black;
+
+}
+
+.raised{
+	box-shadow: 3px 5px 6px 0px grey;
+}
+#card{
+	width: 100%;
+	color: black;
+	font-family: 'Quicksand', sans-serif;
+}
+#card:hover{
+	background-color: #F5F5F5;
+	color: ;
+}
+input{
+	width: 250px;
+	height: 25px;
+	margin-top: 5px;
+}
+.contactList{
+	height: 100%;
+}
+.messenger{
+	background-color: orange;
+}
+.message {      
+  color: white;
+  padding: 8px 10px;
+  font-size: 14px;
+  border-radius: 5px ;
+  margin-bottom: 10px;
+  width: 50%;
+  position: relative;
+  padding-right: 10px;
+
+}
+.other_message {
+  background: #94C2ED;
+}
+.anthraBg {
+  background: var(--anthracit);
+}
+.pinkBg {
+  background: pink;
+}
+
+
+    .greenBg {
+      background: #86BB71;
+    }
+      ul {
+    padding: 20px;
+    list-style-type: none;
+ 
+  }  
+    
+    li {
+    
+    }
+    .chat-history {
+    font: 14px/20px "Lato", Arial, sans-serif;
+    padding: 10px 10px 10px;
+    overflow-y: scroll;
+    height: 300px;
+
+
+}
+  .msgTime {
+    	margin-top: 2px;
+    	font-size: 12px;
+      color: grey;
+      padding-left: 6px;
+    }
+.status{
+	margin-top: -1px;
+}
+.right{
+	text-align: right
+}
+.header{
+	  font: 14px/20px "Lato", Arial, sans-serif;
+	height: 80px;
+	background-color:  	var(--anthracit);
+
+	color: white;
+}
+.chatIcon{
+
+	margin-top:15px;
+	margin-left: 15px;
+	border-radius: 50px;
+
+	height: 50px;
+	width: 50px;
+	border: #86BB71 3px solid;
+}
+
+
+}
+.relativelyHigh{
+	font-size: 10px;
+	position: absolute;
+	margin-top: -20px;
+	margin-left: 8px;
+
+
+}
+
+.returnIcnMsg{
+	position: absolute;
+	cursor: pointer;
+
+
+}
+.contactItem{
+	
+	color: white;
+	height: 500PX;
+	background-color: var(--anthracit);
+
+}
+.list{
+
+	margin-top:15px;
+	margin-left: 15px;
+	border-radius: 50px;
+
+	height: 50px;
+	width: 50px;
+	border: lightgrey 3px solid;
+}
+.search{
+
+	background-color: lightgrey;
+}
+.pointer{
+	cursor: pointer;
+}
+.victor{
+
+	background-position: center;
+	background-size: 330%;
+	background-repeat: no-repeat;
+}
+
+  .chat-message {
+    padding: 10px;
+ }
+
+ .rightDivFilled{
+ 	font-family: 'Quicksand', sans-serif;
+ 	top: 100PX;
+ 	right: 20px;
+ 	width: 400px;
+
+ }
+ .rightDivFilled2{
+ 	font-family: 'Quicksand', sans-serif;
+ 	top: 250PX;
+ 	right: 20px;
+ 	width: 400px;
+
+ }
+ .leftDivFilledOffline{
+ 	top: 50PX;
+ 	right: 20px;
+ 	bottom: 20px;
+ 	width: 600px;
+ 	background-image: url('../img/fibre.jpg');
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+ 	filter: blur;
+ 	opacity: 0.6;
+ 	cursor: default;
+
+
+ }
+ .offlineBanner{
+ 	font-size: 70px;
+ 	color: var(--smoke);
+ }
+ .contactIcon{
+ 	width: 44px;
+ 	height : 100%;
+ 	border-radius: 50px;
+ }
+
+ @media screen and (min-width: 0px) and (max-width: 1500px) {
+  #rightAligned { display: none;  }  /* show it on small screens */
+}
+
+ @media screen and (min-width: 0px) and (max-width: 775px) {
+  #leftAligned { display: none;  }  /* show it on small screens */
+}
+a.like-button {
+
+
+  font-size:1.5rem;
+  padding: 10px;
+  color: #AAAAAA;
+}
+
+

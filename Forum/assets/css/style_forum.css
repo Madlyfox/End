@@ -1,0 +1,70 @@
+html{
+	--anthracitPurple : #394061 ;
+	--anthracit : #565466 ;
+}
+
+body.highlighter-context{
+
+  background: linear-gradient(-45deg, #394061, #565466, grey);
+  height: 100%;
+
+
+  background-size: cover;
+}
+.border{
+	border: 1px solid black;
+}
+.bgWhite{
+	background-color:white ;
+	
+}
+.header{
+	background-color: lightgrey;
+	color: var(--anthracit);
+}
+.forum{
+	width: 100%;
+	padding: 5px;
+}
+h4{
+	color: var(--anthracitPurple);
+
+}
+.white{
+	background-color: white;
+
+}
+.red{
+	background-color: red;
+	height: 100%;
+}
+#forum{
+	font-size: 15px;
+}
+.PP{
+		height: 100px;
+	width: 100px;
+	border-radius: 50px;
+	position: relative;
+	margin-top:-40px;
+	border-style : solid 1px red;
+}
+.profilCard{
+	margin-top: 20px;
+	background-color: white;
+	padding: 10px;
+	text-align: center;
+}
+.addContent{
+	margin-top: 10px;
+	text-align: center;
+	background-color: white;
+
+
+	border-radius: 5px;
+	padding: 5;
+}
+
+.raised{
+	box-shadow: 3px 5px 6px 0px grey;
+}

@@ -1,0 +1,19 @@
+
+
+    $bdd = new PDO('mysql:host=127.0.0.1;dbname=Espace-Menbre','root','Borromee1',array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8', PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+
+    	require_once '../config/postConfig.php';
+    	require_once '../config/likesConfig.php';
+
+	        $getMembers= $bdd->query('SELECT * FROM Membres');
+	        $membres= $getMembers->fetchAll();
+	 
+	        $getPost= $bdd->query('SELECT * FROM Feed  ORDER BY `Feed`.`dateHeureCreation` DESC');
+	        $posts= $getPost->fetchAll();
+
+	       	$getlikes= $bdd->query('SELECT * FROM Likes');
+	        $membres= $getlikes->fetchAll();
+
+	        $getDislikes= $bdd->query('SELECT * FROM Dislikes');
+	        $membres= $getDislikes->fetchAll();
+

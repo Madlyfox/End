@@ -1,0 +1,88 @@
+html{
+	--anthracitPurple : #394061 ;
+	--anthracit : #565466 ;
+}
+body.highlighter-context{
+
+  background: linear-gradient(-45deg, #394061, #565466, grey);
+  height: 100%;
+  background-repeat : no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+input{
+	background-color: black;
+}
+
+.bg-white{
+	background-color: rgba(255,255,255,0.6);
+	margin-top: 100px;
+	border-radius: 5px;
+}
+
+
+
+section{
+
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.hidden{
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.fileName{
+  padding-top: 10px;
+  font-weight: 300;
+}
+
+.preview{
+  position: relative;
+  width: 250px;
+  height: 250px;
+  background: #f2f2f2;
+  border-radius: 100%;
+  margin: 0 auto 25px auto;
+  overflow: hidden;
+  border: 8px solid #E0E0E0;
+  }
+ img{
+    
+    width: 250px; height: 300px;
+    object-fit: contain;
+  }
+  
+  .loadingLogo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -35px;
+    margin-top: -35px;
+    width: 70px;
+    height: 70px;
+    border: 5px solid #69CD9B;
+    border-top: 5px solid #2FDEC1;
+    border-radius: 100%;
+    animation: spin 500ms linear infinite;
+  }
+  
+
+
+@keyframes spin {
+  from{
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

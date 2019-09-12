@@ -1,0 +1,15 @@
+
+html, body {
+  font-family: 'Roboto';
+  blackground: none;
+  background: linear-gradient(-45deg, #394061, #565466, grey);
+  height: 100%;
+}
+.CGU{
+    overflow-y: scroll;
+    height:400px;
+    width: auto;
+    background-color: rgba(255,255,255,0.2);
+    border-radius:5px;
+    color: lightgrey;
+}
