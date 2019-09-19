@@ -5,7 +5,7 @@
 
 
 ?>
-<div class="contactItem" style="background-color:var(--anthracit) ">
+<div class="contactItem" style="background-color:var(--anthracit); overflow-x: 100%; ">
 
     <div class="">
         <?php    
