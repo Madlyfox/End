@@ -18,20 +18,26 @@
     <div class="container">
         <div class="row">
             <div class=" container mt-5 " align="center">
-                <h1>Hello, fellow developers</h1>
+                <h1>Bienvenu chère développeur</h1>
                 <br>
-                <p>You'r about to enter TheNode, a Scocial Network for developers. <br> But first, you should to reed the users agreements </p>
-                <div  class="CGU">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, soluta voluptas voluptatum enim, accusamus doloremque. Nam deleniti, perferendis ex quas, autem rerum quia aliquam minus voluptates quaerat neque, error incidunt Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam blanditiis, labore maxime minima reiciendis ut qui, possimus doloribus tempora eaque nisi, modi sin Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, et! Ab praesentium nemo provident neque inventore est beatae, error illum aspernatur officia, atque mollitia corrupti? Assumenda eius nesciunt <br> officiis corrupti!t seq Lorem ui excepturi consequuntur obcaecati voluptas, tempore atque ipsum dolor sit amet, consectetur adipisicing elit. Sequi, soluta voluptas voluptatum enim, accusamus doloremque. Nam deleniti, perferendis ex quas, autem rerum quia aliquam minus voluptates quaerat neque, error incidunt Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam blanditiis, labore maxime minima reiciendis ut qui, 
-                      <br>  possimus doloribus tempora eaque nisi, modi sin Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, et! Ab praesentium nemo provident neque inventore est beatae, error illum aspernatur officia, atque mollitia corrupti? Assumenda eius nesciunt officiis corrupti!t seq Lorem ui excepturi consequuntur obcaecati voluptas, tempore atque.</p>
-                               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, soluta voluptas voluptatum enim, accusamus doloremque. Nam deleniti, perferendis ex quas, autem rerum quia aliquam minus voluptates quaerat neque, error incidunt Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam blanditiis, labore maxime minima reiciendis ut qui, possimus doloribus tempora eaque nisi, modi sin Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, et! Ab praesentium nemo provident neque inventore est beatae, error illum aspernatur officia, atque mollitia corrupti? Assumenda eius nesciunt <br> officiis corrupti!t seq Lorem ui excepturi consequuntur obcaecati voluptas, tempore atque ipsum dolor sit amet, consectetur adipisicing elit. Sequi, soluta voluptas voluptatum enim, accusamus doloremque. Nam deleniti, perferendis ex quas, autem rerum quia aliquam minus voluptates quaerat neque, error incidunt Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam blanditiis, labore maxime minima reiciendis ut qui, 
-                      <br>  possimus doloribus tempora eaque nisi, modi sin Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, et! Ab praesentium nemo provident neque inventore est beatae, error illum aspernatur officia, atque mollitia corrupti? Assumenda eius nesciunt officiis corrupti!t seq Lorem ui excepturi consequuntur obcaecati voluptas, tempore atque.</p>
-                               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, soluta voluptas voluptatum enim, accusamus doloremque. Nam deleniti, perferendis ex quas, autem rerum quia aliquam minus voluptates quaerat neque, error incidunt Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam blanditiis, labore maxime minima reiciendis ut qui, possimus doloribus tempora eaque nisi, modi sin Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, et! Ab praesentium nemo provident neque inventore est beatae, error illum aspernatur officia, atque mollitia corrupti? Assumenda eius nesciunt <br> officiis corrupti!t seq Lorem ui excepturi consequuntur obcaecati voluptas, tempore atque ipsum dolor sit amet, consectetur adipisicing elit. Sequi, soluta voluptas voluptatum enim, accusamus doloremque. Nam deleniti, perferendis ex quas, autem rerum quia aliquam minus voluptates quaerat neque, error incidunt Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam blanditiis, labore maxime minima reiciendis ut qui, 
-                      <br>  possimus doloribus tempora eaque nisi, modi sin Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, et! Ab praesentium nemo provident neque inventore est beatae, error illum aspernatur officia, atque mollitia corrupti? Assumenda eius nesciunt officiis corrupti!t seq Lorem ui excepturi consequuntur obcaecati voluptas, tempore atque.</p>
+                <p>Vous ête sur le point d'enter dans TheNode, le réseau social pour développeur. <br>Mais avant tout, voici quelques informations que vous devvriez connaitre : </p>
+                <div  class="CGU text-left p-5">
+                    <p>L'application web que vous ete sur le point d'utiliser et le code qui le compose sont la propriétée de Stanley Borromée,
+                    <br> crée en 2019 Pour un examen de fin de formation.
+                    <br>Aucune réutilisation du code, du logo, ou du design du site n'es autorisé par son créateur pour le moment.
+                    <br>
+                    <br>
+                    Les informations collectées sur cette application sont a but purement démonstatives et <br> en aucun cas ne seront partagée ou diffusées.
+                    <br>
+                    En vous inscrivant vous acceptez de Partager certaines information avec le créateur du <br> site et d'éventuelles administateur ou developpeur prenant part au projet.
+                    <br>
+                    Le créateur de l'application s'engage à protéger vos information durant tout votre séjour sur le site, <br>
+                    et à rester transparant sur la façont dont celles-ci sont traitées.
+
                 </div>
                 <div align="center">
                    <a href="views/connexion.php">
-                        <input type="submit" class="btn btn-outline-light mt-3 offset-11" value="Sign-In" >
+                        <input type="submit" class="btn btn-outline-light mt-3 offset-11" value="Connexion" >
                     </a>
 
                 </div>

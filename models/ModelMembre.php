@@ -13,7 +13,7 @@ class Membres {
 
 
     public function __construct($nom, $prenom, $dateDeNaissance,$avatar, $mail, $mdp, $exp) {
-      $this->db = new PDO('mysql:host=localhost;dbname=Espace-Menbre', 'Stanley', 'Borromee1', array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8', PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+      $this->db = new PDO('mysql:host=localhost;dbname=Espace_Membre', 'Stanley', 'Ludwidge', array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8', PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
       $this->_nom = $nom;
       $this->_prenom = $prenom;
       $this->_dateDeNaissance = $dateDeNaissance;

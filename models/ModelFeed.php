@@ -23,7 +23,7 @@ class Feed {
 
 
     public function __construct( $id_utilisateur, $vote,$commentaires, $dateHeureCreation, $contenu, $nom) {
-      $this->db = new PDO('mysql:host=localhost;dbname=Espace-Menbre', 'Stanley', 'Borromee1', array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8', PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+      $this->db = new PDO('mysql:host=localhost;dbname=Espace_Membre', 'Stanley', 'Ludwidge', array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8', PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
       $this->_id_utilisateur = $id_utilisateur;
       $this->_vote = $vote;
       $this->_commentaires = $commentaire;

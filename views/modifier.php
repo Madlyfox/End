@@ -1,5 +1,5 @@
 <?php 
-session_start();
+include '../controllers/sessionController.php';
     $bdd = new PDO('mysql:host=127.0.0.1;dbname=Espace_Membre','Stanley','Ludwidge');
         $bdd->exec("SET NAMES 'UTF8'");
 
@@ -51,10 +51,10 @@ session_start();
 
                 if (isset($_POST['newMdp']) AND !empty ($_POST['newMdp']) AND isset($_POST['newMdp2']) AND !empty ( $_POST['newMdp2'] )) {
 
-                    $mdp1=sha1($_POST['newMdp']);
-                    $mdp2=sha1($_POST['newMdp2']);
+                    $mdp1=password_hash($_POST['newMdp'], PASSWORD_DEFAULT);
+                    $mdp2=$_POST['newMdp2'];
 
-                    if ($mdp1==$mdp2) {
+                    if (password_verify($mdp2, $mdp)) {
                         $insertMdp=$bdd->prepare('UPDATE Membres SET motDePasse=? WHERE id=?');
                         $insertMdp->execute(array($mdp1,$_SESSION['id']));
                         header('Location: profil.php?id='.$_SESSION['id'].'#!/messenger');
@@ -89,8 +89,7 @@ session_start();
             }else{
                 $msg="Votre photo de profile ne dois pas depasser 2Mo";
             }
-        }
-?>
+        }?>
 <!DOCTYPE html>
 <html lang="fr">
 

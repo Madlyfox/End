@@ -56,11 +56,11 @@
                         <input type="text" placeholder="Enter mail" id="mail" name="mail" value="<?php if(isset($mail)) {echo $mail; } ?>">
                     </div>
                     <div class="field">
-                        <label for="mail2">Confirm mail </label>
+                        <label for="mail2">Confirmer  mail </label>
                         <input type="text" placeholder="Confirm mail" id="mail2" name="mail2">
                    </div>
                     <div class="field">
-                        <label for="mdp">Password 
+                        <label for="mdp">Mot de Passe 
                             <span data-tooltip="Votre mot de passe doit contenir au moins un caractère majuscule et un caractère spécial" data-variation="tiny">
                                 <i class="icon help grey"></i>   
                             </span>
@@ -68,7 +68,7 @@
                         <input type="password" placeholder="Enter password" id="mdp" name="mdp">
                     </div>
                     <div class="field">
-                        <label for="mdp2">Confirm password </label>
+                        <label for="mdp2">Confirmer mot de passe </label>
                         <input type="password" placeholder="Confirm password" id="mdp2" name="mdp2">
                     </div>
                     <div class="field">
@@ -82,12 +82,12 @@
                         }
 
                      ?>
-                        <input class="ui button olive" type="submit" id="submit" name='formInscription' value="Sign-in">
+                        <input class="ui button olive" type="submit" id="submit" name='formInscription' value="Inscription">
                         
                 </form>
-                <div class="ui bottom attached info message">
+                <div class="ui bottom attached info message mt-3">
   <i class="icon help"></i>
-  Déja Inscrit ?  <a href="connexion.php">Connextez vous ici</a> .
+  Déja Inscrit ?  <a href="connexion.php">Connectez vous ici</a> .
 </div>
             </div>
         </div>

@@ -1,6 +1,8 @@
 <?php  
+include '../controllers/sessionController.php';
 include '../controllers/homeController.php';
 include '../controllers/ControllerPost.php';
+
 ?>
 <!DOCTYPE html>
 <html lang="fr" ng-app="messengerApp">
@@ -14,6 +16,7 @@ include '../controllers/ControllerPost.php';
     
 <body>
     <?php
+
         if (isset($_SESSION['id']) && $userInfo['id']==$_SESSION['id']) {
         include '../assets/include/navbar.php';
      }; ?>

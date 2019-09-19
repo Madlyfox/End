@@ -1,6 +1,7 @@
 <?php 
-session_start();
+
 include '../controllers/ControllerConnexion.php';
+
  ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -56,12 +57,9 @@ include '../controllers/ControllerConnexion.php';
                         <label for="mdp">Mot de Passe :</label>
                         <input type="password" placeholder="Enter password"  name="mdpConnect">
                     </div>
-  
-                        <input class="ui button olive " type="submit" name='formConnection' value="Log-in"> 
-                    
-         
+                        <input class="ui button olive " type="submit" name='formConnection' value="Connexion"> 
                 </form>
-                <div class="ui bottom attached info message">
+                <div class="ui bottom attached info message mt-3">
                   <i class="icon help"></i>
                   Pas encore de compte ?  <a   href="inscription.php">inscrivez vous ici</a> .
                 </div>
